@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>RNCP Titles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .category-card {
+            width: 25%;
+            float: left;
+            padding: 0 10px;
+        }
+        .card.mb-4 {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .note-input {
+            width: 6ch;
+            height: 1.5em;
+        }
+        .table tr {
+            height: 10px;
+        }
+        .table td {
+            height: 10px;
+            padding: 2px;
+        }
+        .category-complete {
+            background-color: #d4edda;
+        }
+        .category-incomplete {
+            background-color: #f8d7da;
+        }
+        .navbar2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar2 navbar-expand-lg navbar-light bg-light">
+        Student choice:&nbsp;
+        <select id="selectStudent">
+            <!-- Les options seront chargées dynamiquement -->
+        </select>
+    </nav>
+    <div class="container-fluid">
+        <div id="rncpTitles"></div>
+    </div>
+    <script src="rncp.js"></script>
+</body>
+</html>

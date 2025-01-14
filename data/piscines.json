@@ -1,0 +1,259 @@
+{
+    "piscines": [
+        {
+            "title": "piscine-php-symfony",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "Symfony - 0 - Oob",
+                    "difficulty": 1500
+                },
+                {
+                    "name": "Symfony - 1 - Base Symfony ",
+                    "difficulty": 3475
+                },
+                {
+                    "name": "Symfony - 2 - SQL",
+                    "difficulty": 1000
+                },
+                {
+                    "name": "Symfony - 3 - Final",
+                    "difficulty": 3475
+                }
+            ]
+        },
+        {
+            "title": "piscine-django",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "Django - 0 - Oob",
+                    "difficulty": 1500
+                },
+                {
+                    "name": "Django - 1 - Base Django",
+                    "difficulty": 3475
+                },
+                {
+                    "name": "Django - 2 - SQL",
+                    "difficulty": 1000
+                },
+                {
+                    "name": "Django - 3 - Final",
+                    "difficulty": 3475
+                }
+            ]
+        },
+        {
+            "title": "piscine-ruby-on-rails",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "Rails - 0 - Oob",
+                    "difficulty": 1500
+                },
+                {
+                    "name": "Rails - 1 - Base Rails",
+                    "difficulty": 3475
+                },
+                {
+                    "name": "Rails - 2 - SQL",
+                    "difficulty": 1000
+                },
+                {
+                    "name": "Rails - 3 - Final",
+                    "difficulty": 3475
+                }
+            ]
+        },
+        {
+            "title": "piscine-mobile",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "Mobile - 0 - Basic of the mobile application",
+                    "difficulty": 500
+                },
+                {
+                    "name": "Mobile - 1 - Structure and logic",
+                    "difficulty": 950
+                },
+                {
+                    "name": "Mobile - 2 - API and data",
+                    "difficulty": 1000
+                },
+                {
+                    "name": "Mobile - 3 - Design",
+                    "difficulty": 2000
+                },
+                {
+                    "name": "Mobile - 4 - Auth and dataBase",
+                    "difficulty": 2000
+                },
+                {
+                    "name": "Mobile - 5 - Manage data and display",
+                    "difficulty": 3000
+                }
+            ]
+        },
+        {
+            "title": "piscine-data-science",
+            "difficulty": 4725,
+            "projects": [
+                {
+                    "name": "Data Science - 0",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Data Science - 1",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Data Science - 2",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Data Science - 3",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Data Science - 4",
+                    "difficulty": 2545
+                }
+            ]
+        },
+        {
+            "title": "piscine-python-for-data-science",
+            "difficulty": 4725,
+            "projects": [
+                {
+                    "name": "Python - 0 - Starting",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Python - 1 - Array",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Python - 2 - DataTable",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Python - 3 - OOP",
+                    "difficulty": 545
+                },
+                {
+                    "name": "Python - 4 - Dod",
+                    "difficulty": 2545
+                }
+
+            ]
+        },
+        {
+            "title": "piscine-object",
+            "difficulty": 0,
+            "projects": [
+                {
+                    "name": "Piscine Object - Module 00 - Encapsulation",
+                    "difficulty": 945
+                },
+                {
+                    "name": "Piscine Object - Module 01 - Relationship",
+                    "difficulty": 945
+                },
+                {
+                    "name": "Piscine Object - Module 02 - UML",
+                    "difficulty": 1890
+                },
+                {
+                    "name": "Piscine Object - Module 03 - SMART",
+                    "difficulty": 1890
+                },
+                {
+                    "name": "Piscine Object - Module 04 - Design Pattern",
+                    "difficulty": 1890
+                },
+                {
+                    "name": "Piscine Object - Module 05 - Practical work",
+                    "difficulty": 1890
+                }
+            ]
+        },
+        {
+            "title": "piscine-cybersecurity",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "Cybersecurity - arachnida - Web",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - ft_onion - Web",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - ft_otp - OTP",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - Inquisitor - Network",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - Reverse me - Rev",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - Stockholm - Malware",
+                    "difficulty": 1350
+                },
+                {
+                    "name": "Cybersecurity - Vaccine - Web",
+                    "difficulty": 1350
+                }
+            ]
+        },
+        {
+            "title": "piscine-ocaml",
+            "difficulty": 9450,
+            "projects": [
+                {
+                    "name": "OCAML - Basic syntax and semantics - 0",
+                    "difficulty": 0
+                },
+                {
+                    "name": "OCAML - Recursion and higher-order functions - 0",
+                    "difficulty": 0
+                },
+                {
+                    "name": "OCAML - Pattern Matching and Data Types - 0",
+                    "difficulty": 1500
+                },
+                {
+                    "name": "OCAML  - OCaml\u2019s modules language - 1",
+                    "difficulty": 0
+                },
+                {
+                    "name": "OCAML - Imperative features - 1",
+                    "difficulty": 0
+                },
+                {
+                    "name": "OCAML - Functor - 1",
+                    "difficulty": 2250
+                },
+                {
+                    "name": "OCAML - Object Oriented Programming -  1",
+                    "difficulty": 0
+                },
+                {
+                    "name": "OCAML - Object Oriented Programming - 2",
+                    "difficulty": 2225
+                },
+                {
+                    "name": "OCAML - Monoids and Monads - 3",
+                    "difficulty": 3475
+                }
+            ]
+        }
+    ]
+}

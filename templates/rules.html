@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rules list for projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .suggestions {
+            position: absolute;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            z-index: 1000;
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Filter :</a>
+        <div class="navbar-nav">
+            <input type="text" id="projectSearchBox" placeholder="Rechercher par nom ou description...">&nbsp;
+            <div id="projectSuggestions" class="suggestions"></div>
+
+            <select id="sortSelect" class="form-control">
+                <option value="alphabetical">Alphabetical Order</option>
+                <option value="difficultyAscending">Increasing difficulty</option>
+                <option value="difficultyDescending">Decreasing difficulty</option>
+            </select>&nbsp;
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="includeSoloProjects" checked>
+                <label class="form-check-label" for="includeSoloProjects">Solo</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="includeGroupProjects" checked>
+                <label class="form-check-label" for="includeGroupProjects">Group</label>
+            </div>
+        </div>
+        <span id="projectCount" class="navbar-text"></span>
+    </nav>
+
+    <div id="projectsList" class="container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
